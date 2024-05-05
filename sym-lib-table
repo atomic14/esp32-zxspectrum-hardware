@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "touch-pad")(type "KiCad")(uri "${KIPRJMOD}/touch-pad.kicad_sym")(options "")(descr ""))
+)
