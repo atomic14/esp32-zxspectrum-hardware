@@ -1409,6 +1409,290 @@
 				)
 			)
 		)
+		(symbol "Device:Q_NMOS_GSD"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -6862,6 +7146,16 @@
 	)
 	(wire
 		(pts
+			(xy 448.945 144.78) (xy 448.945 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043053ce-c51b-4948-b451-472071a2e2f3")
+	)
+	(wire
+		(pts
 			(xy 115.57 282.575) (xy 115.57 285.75)
 		)
 		(stroke
@@ -7879,16 +8173,6 @@
 			(type default)
 		)
 		(uuid "5b8a96b5-92a1-4e46-a01c-238fc6f3938f")
-	)
-	(wire
-		(pts
-			(xy 448.945 144.78) (xy 448.945 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2cdfba-1757-4187-b6ec-176efedffaea")
 	)
 	(wire
 		(pts
@@ -10073,28 +10357,6 @@
 			)
 		)
 	)
-	(global_label "USB_D-"
-		(shape input)
-		(at 245.745 287.655 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22ce747c-6c05-4c72-8bb2-d20a120ab65c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1398 287.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TFT_VCC"
 		(shape input)
 		(at 95.885 250.19 180)
@@ -10535,6 +10797,28 @@
 			)
 		)
 	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 271.78 290.195 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "577e0726-652d-4acb-b7d8-e92f482216a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.3852 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_CARD_DAT2"
 		(shape input)
 		(at 215.265 139.7 0)
@@ -10619,28 +10903,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D_IN+"
-		(shape input)
-		(at 271.78 290.195 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63343469-1e21-4d80-bb24-02e77abfa680")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.2881 290.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10927,28 +11189,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D_IN-"
-		(shape input)
-		(at 245.745 290.195 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fd79344-5917-493d-988b-63783deeacde")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.2369 290.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11393,6 +11633,28 @@
 			)
 		)
 	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 271.78 287.655 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "babf0329-3364-4541-a3ee-c232a6387dc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.3852 287.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TFT_MOSI"
 		(shape input)
 		(at 95.885 240.03 180)
@@ -11613,28 +11875,6 @@
 			)
 		)
 	)
-	(global_label "USB_D+"
-		(shape input)
-		(at 271.78 287.655 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca7bddbf-cd40-485b-9db6-cdff75e6e720")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.3852 287.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 108.585 285.75 270)
@@ -11719,6 +11959,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D_IN-"
+		(shape input)
+		(at 245.745 287.655 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0dd6b0d-37d9-4964-88e6-bc67b7bae7cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.2369 287.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11873,6 +12135,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D_IN+"
+		(shape input)
+		(at 245.745 290.195 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f042d7d1-0cf8-4b46-96dc-a8ddf41694e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.2369 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12313,168 +12597,6 @@
 			(project "esp32-s3-spectrum"
 				(path "/dafc20ec-c17f-44eb-87b8-51ae5cfca246"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NTA4151PT1G:NTA4151PT1G")
-		(at 441.325 156.845 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "093ea1be-7148-486b-822b-c02efdeaf09b")
-		(property "Reference" "Q2"
-			(at 450.215 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NTA4151PT1G"
-			(at 449.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NTA4151PT1G:SOT50P160X90-3N"
-			(at 452.755 255.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/NTA4151P-D.PDF"
-			(at 452.755 355.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 441.325 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 452.755 555.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 452.755 655.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NTA4151PT1G"
-			(at 452.755 755.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-NTA4151PT1G"
-			(at 452.755 855.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTA4151PT1G?qs=ZXBb0xZ9WeC9bannzQa%2FPw%3D%3D"
-			(at 452.755 955.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "NTA4151PT1G"
-			(at 452.755 1055.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/nta4151pt1g/on-semiconductor?region=nac"
-			(at 452.755 1155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MF" "onsemi"
-			(at 441.325 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "NTA4151PT1G"
-			(at 441.325 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4651911d-c15e-41a1-bbc2-f876a67f0658")
-		)
-		(pin "2"
-			(uuid "2083fc26-d116-4b87-b05e-3266ebf61211")
-		)
-		(pin "3"
-			(uuid "ca354cb1-f380-470a-b33c-995a4faca359")
-		)
-		(instances
-			(project "esp32-s3-spectrum"
-				(path "/dafc20ec-c17f-44eb-87b8-51ae5cfca246"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -19909,6 +20031,97 @@
 			(project "esp32-s3-spectrum"
 				(path "/dafc20ec-c17f-44eb-87b8-51ae5cfca246"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_GSD")
+		(at 446.405 156.845 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1dc8d05-5524-4cd9-82b1-1d76790f1e94")
+		(property "Reference" "Q2"
+			(at 452.755 155.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPNTA4153NT1G"
+			(at 452.755 158.1149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
+			(at 451.485 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 446.405 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 446.405 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC"
+			(at 446.405 156.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPNTA4153NT1G"
+			(at 446.405 156.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f2f5f1a-87c3-44d3-98de-1558ea7dff04")
+		)
+		(pin "2"
+			(uuid "3d1e030a-acde-4c36-8998-08dd1d0ba617")
+		)
+		(pin "3"
+			(uuid "90784624-d849-4c2d-897a-15a1fd58fe39")
+		)
+		(instances
+			(project "esp32-s3-spectrum"
+				(path "/dafc20ec-c17f-44eb-87b8-51ae5cfca246"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
