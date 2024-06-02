@@ -466,7 +466,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "",
+      "pos_files": "gerbers/",
       "specctra_dsn": "",
       "step": "",
       "svg": "images",
