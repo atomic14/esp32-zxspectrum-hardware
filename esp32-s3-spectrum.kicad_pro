@@ -497,6 +497,14 @@
       {
         "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "BUS_PWR"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "BAT+"
       }
     ]
   },
