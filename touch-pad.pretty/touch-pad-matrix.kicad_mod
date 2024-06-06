@@ -204,7 +204,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "B.Cu")
+		(layers "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu" "B.Cu"
+		)
 		(uuid "e5879554-3f08-494a-8269-915a4f219ba4")
 		(hatch edge 0.5)
 		(connect_pads

@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "touch-pad")(type "KiCad")(uri "${KIPRJMOD}/touch-pad.pretty")(options "")(descr ""))
+  (lib (name "FPC-PCB")(type "KiCad")(uri "${KIPRJMOD}/FPC-PCB.pretty")(options "")(descr ""))
 )
