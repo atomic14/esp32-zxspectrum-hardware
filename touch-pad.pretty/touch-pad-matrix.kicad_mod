@@ -67,6 +67,17 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center 0.0254 0.0508)
+		(end 7.557371 0.0508)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "89160e2a-1ab6-4eb4-834d-fcc295e86b17")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -7.366 10.922 0)
 		(unlocked yes)
