@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "touch-pad")(type "KiCad")(uri "${KIPRJMOD}/touch-pad.kicad_sym")(options "")(descr ""))
   (lib (name "FPC-Displays")(type "KiCad")(uri "${KIPRJMOD}/FPC-Displays.kicad_sym")(options "")(descr ""))
+  (lib (name "tft-screen")(type "KiCad")(uri "${KIPRJMOD}/tft-screen.kicad_sym")(options "")(descr ""))
+  (lib (name "PI-Zero")(type "KiCad")(uri "${KIPRJMOD}/PI-Zero.kicad_sym")(options "")(descr ""))
 )

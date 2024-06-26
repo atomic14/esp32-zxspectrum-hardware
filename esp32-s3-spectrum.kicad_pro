@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|188130000|38150000|3d6086c4-3fd6-49de-af71-50d4ad5a92f3|1b8a6b8b-fcbc-400f-bacc-15dccd122158",
+        "hole_clearance|188330000|38150000|3d6086c4-3fd6-49de-af71-50d4ad5a92f3|95bf0282-104e-4d34-9d61-6b99943d5d38",
+        "hole_clearance|193730000|38150000|a4baf424-8134-4a36-acd5-8906f948c815|d49d99c2-d3be-4060-a352-35d3e7735612",
+        "hole_clearance|193930000|38150000|a4baf424-8134-4a36-acd5-8906f948c815|18be7d25-cc43-4bc6-8a54-b078c72cf269"
+      ],
       "meta": {
         "version": 2
       },
@@ -510,6 +515,10 @@
       {
         "netclass": "Power",
         "pattern": "PWR"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
       }
     ]
   },

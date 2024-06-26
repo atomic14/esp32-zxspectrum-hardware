@@ -1,0 +1,243 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "pi-zero-outline"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "pi-zero-outline_1_0"
+			(arc
+				(start -32.5 -12)
+				(mid -31.6213 -14.1213)
+				(end -29.5 -15)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -29.5 15)
+				(mid -31.6213 14.1213)
+				(end -32.5 12)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -29 -11.5)
+				(radius 1.375)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -29 11.5)
+				(radius 1.375)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -32.5 -12) (xy -32.5 12)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -29.5 15) (xy 29.5 15)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25.4 8.96) (xy -25.4 14.04)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25.4 14.04) (xy 25.4 14.04)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 8.96) (xy -25.4 8.96)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 14.04) (xy 25.4 8.96)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 29.5 -15) (xy -29.5 -15)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 32.5 12) (xy 32.5 -12)
+				)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 29 -11.5)
+				(radius 1.375)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 29 11.5)
+				(radius 1.375)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 29.5 -15)
+				(mid 31.6213 -14.1213)
+				(end 32.5 -12)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 32.5 12)
+				(mid 31.6213 14.1213)
+				(end 29.5 15)
+				(stroke
+					(width 0.2)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+)

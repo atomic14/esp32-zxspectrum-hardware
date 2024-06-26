@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "touch-pad")(type "KiCad")(uri "${KIPRJMOD}/touch-pad.pretty")(options "")(descr ""))
   (lib (name "FPC-PCB")(type "KiCad")(uri "${KIPRJMOD}/FPC-PCB.pretty")(options "")(descr ""))
+  (lib (name "Screen")(type "KiCad")(uri "${KIPRJMOD}/Screen.pretty")(options "")(descr ""))
+  (lib (name "pi-zero-outline")(type "KiCad")(uri "${KIPRJMOD}/pi-zero-outline.pretty")(options "")(descr ""))
 )

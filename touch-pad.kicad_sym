@@ -49,32 +49,6 @@
 				(hide yes)
 			)
 		)
-		(symbol "touch_pad_matrix_0_1"
-			(polyline
-				(pts
-					(xy -2.54 -3.81) (xy 2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -3.81) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "touch_pad_matrix_1_1"
 			(circle
 				(center 0 -6.35)
@@ -98,24 +72,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 0 270)
-				(length 2.54)
-				(name "V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
