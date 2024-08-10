@@ -15267,7 +15267,7 @@
 			)
 		)
 	)
-	(global_label "SD_CARD_DAT1"
+	(global_label "SD_CARD_DAT3"
 		(shape input)
 		(at 269.24 144.272 0)
 		(fields_autoplaced yes)
