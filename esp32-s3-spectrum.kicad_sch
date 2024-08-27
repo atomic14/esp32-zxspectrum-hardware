@@ -3877,6 +3877,34 @@
 					)
 				)
 			)
+			(symbol "SMD0603-100_06N_1_1"
+				(arc
+					(start -3.81 0)
+					(mid -2.54 -0.5261)
+					(end -1.27 0)
+					(stroke
+						(width 0.1)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 0 0.5261)
+					(end -1.27 0)
+					(stroke
+						(width 0.1)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 		)
 		(symbol "EasyEDA2Kicad:TPS2117DRLR_C22399676"
 			(exclude_from_sim no)
@@ -6196,6 +6224,165 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "SMD0603-100_06N_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD0603-100/06N"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:F0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2687879"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD0603-100_06N_1_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SMD0603-100_06N_1_1_1"
+				(arc
+					(start -3.81 0)
+					(mid -2.54 -0.5261)
+					(end -1.27 0)
+					(stroke
+						(width 0.1)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 0 0.5261)
+					(end -1.27 0)
+					(stroke
+						(width 0.1)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -18735,6 +18922,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SMD0603-100_06N_1")
 		(lib_id "EasyEDA2Kicad:SMD0603-100_06N")
 		(at 119.888 303.276 0)
 		(unit 1)
@@ -18789,6 +18977,24 @@
 		)
 		(property "LCSC Part" "C2687879"
 			(at 119.888 313.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "BORN"
+			(at 119.888 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMD0603-100/06N"
+			(at 119.888 303.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20406,6 +20612,24 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 139.446 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CBM160808U121T"
+			(at 139.446 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9c88d2c-b3e5-41df-92ab-cbec4618f8d5")
 		)
@@ -20751,6 +20975,24 @@
 		)
 		(property "LCSC Part" "C393942"
 			(at 51.308 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "SHOU HAN"
+			(at 36.068 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TS24CA"
+			(at 36.068 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25851,6 +26093,24 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "SHOU HAN"
+			(at 40.132 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TS24CA"
+			(at 40.132 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b086c27-fae6-4171-9051-8bc38976b354")
 		)
@@ -26387,6 +26647,24 @@
 		)
 		(property "LCSC Part" "C2687879"
 			(at 210.312 313.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "BORN"
+			(at 210.312 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMD0603-100/06N"
+			(at 210.312 303.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29976,6 +30254,24 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "KELIKING"
+			(at 439.928 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "KLJ-01304T-08R07W"
+			(at 439.928 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4858efd-3617-4b4b-8671-be972dc9a11f")
 		)
@@ -30182,6 +30478,24 @@
 		)
 		(property "LCSC Part" "C22399676"
 			(at 177.292 315.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 177.292 302.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS2117DRLR"
+			(at 177.292 302.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)

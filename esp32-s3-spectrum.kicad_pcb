@@ -1172,6 +1172,32 @@
 				)
 			)
 		)
+		(property "MF" "BORN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4701fe5f-fe8f-4011-a448-817cb5bc11ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "SMD0603-100/06N"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f47f71db-e1fe-4692-8540-d06f73dd3900")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a35427a4-aed6-426b-b44f-a9c9f9d3fea6")
 		(sheetname "Root")
 		(sheetfile "esp32-s3-spectrum.kicad_sch")
@@ -8320,6 +8346,32 @@
 				)
 			)
 		)
+		(property "MF" "SHOU HAN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84c23d3a-0ab3-47d5-9cac-1b8a2bd000b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "TS24CA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7219d0d3-fb9e-4e43-997a-20963ab3d028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9d2b63d8-9af5-483b-bf9b-4a9f9be0482a")
 		(sheetname "Root")
 		(sheetfile "esp32-s3-spectrum.kicad_sch")
@@ -10529,6 +10581,32 @@
 				)
 			)
 		)
+		(property "MF" "BORN"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "688981e1-769f-4e68-913a-b412aa060f5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "SMD0603-100/06N"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1adca4a-2c16-4b70-b08a-7502f8f09721")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/108a3690-b422-4597-9354-225d28b6e86a")
 		(sheetname "Root")
 		(sheetfile "esp32-s3-spectrum.kicad_sch")
@@ -12397,6 +12475,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a117e85-6c5b-46af-b542-cb63d0bc5266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "SHOU HAN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "247b3b7e-4605-4fad-9372-2f5f8eabee89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "TS24CA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "773acdb0-c26c-4d1d-8c84-56565bf1a27d")
 			(effects
 				(font
 					(size 1 1)
@@ -16226,6 +16330,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8911cd9-a503-4c9a-89e6-50081da76459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "KELIKING"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b9dc418-6509-4db5-ab32-f81d44167ffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "KLJ-01304T-08R07W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e4b4be8-4b2c-4899-a8a1-437aa057b202")
 			(effects
 				(font
 					(size 1 1)
@@ -21393,6 +21523,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7b1e799-e97b-419f-9088-c6b718a7c413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81a6dc51-b812-481a-aa38-4cb308e67fc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "CBM160808U121T"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70295a07-475d-4372-9c71-03f6245074ce")
 			(effects
 				(font
 					(size 1 1)
