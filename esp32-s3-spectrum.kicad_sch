@@ -3877,6 +3877,34 @@
 					)
 				)
 			)
+			(symbol "SMD0603-100_06N_1_1"
+				(arc
+					(start -3.81 0)
+					(mid -2.54 -0.5261)
+					(end -1.27 0)
+					(stroke
+						(width 0.1)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 0 0.5261)
+					(end -1.27 0)
+					(stroke
+						(width 0.1)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 		)
 		(symbol "EasyEDA2Kicad:TPS2117DRLR_C22399676"
 			(exclude_from_sim no)
@@ -6196,6 +6224,165 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "SMD0603-100_06N_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD0603-100/06N"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:F0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2687879"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD0603-100_06N_1_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SMD0603-100_06N_1_1_1"
+				(arc
+					(start -3.81 0)
+					(mid -2.54 -0.5261)
+					(end -1.27 0)
+					(stroke
+						(width 0.1)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 0 0.5261)
+					(end -1.27 0)
+					(stroke
+						(width 0.1)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -18735,6 +18922,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SMD0603-100_06N_1")
 		(lib_id "EasyEDA2Kicad:SMD0603-100_06N")
 		(at 119.888 303.276 0)
 		(unit 1)
@@ -18789,6 +18977,24 @@
 		)
 		(property "LCSC Part" "C2687879"
 			(at 119.888 313.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "BORN"
+			(at 119.888 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMD0603-100/06N"
+			(at 119.888 303.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20406,6 +20612,24 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 139.446 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CBM160808U121T"
+			(at 139.446 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9c88d2c-b3e5-41df-92ab-cbec4618f8d5")
 		)
@@ -20758,6 +20982,24 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "SHOU HAN"
+			(at 36.068 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TS24CA"
+			(at 36.068 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81f4e4b4-7c78-4fd5-ba59-9f25f2901ec5")
 		)
@@ -20857,7 +21099,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e557f60-15f2-401c-93b4-3cfce9d98618")
 		(property "Reference" "R1"
-			(at 249.174 233.68 0)
+			(at 248.92 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20865,8 +21107,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
-			(at 249.174 236.22 0)
+		(property "Value" "2.2K"
+			(at 248.92 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22129,7 +22371,7 @@
 		(fields_autoplaced yes)
 		(uuid "505fad28-bf61-422f-889a-a0c25f017b28")
 		(property "Reference" "R2"
-			(at 212.852 75.438 0)
+			(at 212.09 75.4379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22137,8 +22379,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
-			(at 212.852 77.978 0)
+		(property "Value" "2.2K"
+			(at 212.09 77.9779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22862,15 +23104,15 @@
 		(fields_autoplaced yes)
 		(uuid "60364e3e-d635-45d1-9b7d-87c7d6128c5b")
 		(property "Reference" "R8"
-			(at 412.242 64.262 90)
+			(at 412.242 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 412.242 66.802 90)
+		(property "Value" "100R"
+			(at 412.242 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25851,6 +26093,24 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "SHOU HAN"
+			(at 40.132 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TS24CA"
+			(at 40.132 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b086c27-fae6-4171-9051-8bc38976b354")
 		)
@@ -26387,6 +26647,24 @@
 		)
 		(property "LCSC Part" "C2687879"
 			(at 210.312 313.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "BORN"
+			(at 210.312 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMD0603-100/06N"
+			(at 210.312 303.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28261,7 +28539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 61.849 177.292 0)
 			(effects
 				(font
@@ -28655,7 +28933,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb371227-f23e-4f88-9f6e-388a82843f00")
 		(property "Reference" "R7"
-			(at 298.704 234.95 0)
+			(at 298.45 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28663,8 +28941,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
-			(at 298.704 237.49 0)
+		(property "Value" "2.2K"
+			(at 298.45 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29655,7 +29933,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5dccbf2-d653-450b-9496-9b3e7f263118")
 		(property "Reference" "R6"
-			(at 289.814 257.81 0)
+			(at 289.56 257.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29663,8 +29941,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
-			(at 289.814 260.35 0)
+		(property "Value" "2.2K"
+			(at 289.56 260.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29855,7 +30133,7 @@
 		(fields_autoplaced yes)
 		(uuid "da71f598-7834-4c3a-a9c8-de33a786d062")
 		(property "Reference" "R3"
-			(at 427.228 38.3539 0)
+			(at 427.99 38.3539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29863,8 +30141,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15"
-			(at 427.228 40.8939 0)
+		(property "Value" "15R"
+			(at 427.99 40.8939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29969,6 +30247,24 @@
 		)
 		(property "LCSC Part" "C18186315"
 			(at 439.928 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "KELIKING"
+			(at 439.928 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "KLJ-01304T-08R07W"
+			(at 439.928 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30182,6 +30478,24 @@
 		)
 		(property "LCSC Part" "C22399676"
 			(at 177.292 315.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 177.292 302.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS2117DRLR"
+			(at 177.292 302.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30433,9 +30747,9 @@
 		(at 261.62 136.652 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e1af4ada-b63a-475d-b60f-80c1b735b9cf")
 		(property "Reference" "J2"
@@ -30687,7 +31001,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6b73a9b-8285-4cb5-b88b-dd3aa2f2493f")
 		(property "Reference" "R11"
-			(at 195.58 76.454 0)
+			(at 195.58 76.4539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30695,8 +31009,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
-			(at 195.58 78.994 0)
+		(property "Value" "2.2K"
+			(at 195.58 78.9939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31661,8 +31975,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAS 3010A-03W E6327"
-			(at 410.464 36.83 0)
+		(property "Value" "1N4007WS"
+			(at 410.464 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31670,7 +31984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc-library:SOD-323_L1.8-W1.3-LS2.5-RD"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 405.638 47.498 0)
 			(effects
 				(font
@@ -31679,7 +31993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Infineon-Technologies-BAS-3010A-03W-E6327_C533582.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2308211430_MSKSEMI-1N4007WS_C7528872.pdf"
 			(at 403.098 47.498 0)
 			(effects
 				(font
@@ -31697,7 +32011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C533582"
+		(property "LCSC Part" "C7528872"
 			(at 400.558 47.498 0)
 			(effects
 				(font
@@ -31706,7 +32020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Infineon Technologies"
+		(property "MF" "MSKSEMI"
 			(at 413.258 47.498 0)
 			(effects
 				(font
@@ -31715,7 +32029,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "BAS 3010A-03W E6327"
+		(property "MP" "1N4007WS"
 			(at 413.258 47.498 0)
 			(effects
 				(font
