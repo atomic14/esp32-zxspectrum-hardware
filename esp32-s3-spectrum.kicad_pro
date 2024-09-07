@@ -497,7 +497,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "+5V"
+        "pattern": "*5V*"
       },
       {
         "netclass": "Power",
@@ -523,7 +523,7 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "esp32-s3-spectrum.cad",
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
