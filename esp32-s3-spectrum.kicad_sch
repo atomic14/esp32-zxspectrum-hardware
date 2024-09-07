@@ -2769,6 +2769,159 @@
 				)
 			)
 		)
+		(symbol "EasyEDA2Kicad:KLJ-01304T-08R07W"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KLJ-01304T-08R07W"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:BUZ-SMD_4P-L13.0-W13.0-P11.4-BL"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C18186315"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KLJ-01304T-08R07W_0_1"
+				(rectangle
+					(start -10.16 3.81)
+					(end 10.16 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "LEAD+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "LEAD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "DUMMY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "DUMMY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "EasyEDA2Kicad:MK-12C02-G020"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -14382,6 +14535,28 @@
 			)
 		)
 	)
+	(global_label "SPK-"
+		(shape input)
+		(at 460.756 64.516 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32123a56-d521-4f3c-9dde-00edf6807f17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 452.4489 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_CARD_DAT0"
 		(shape input)
 		(at 280.162 72.39 180)
@@ -15306,6 +15481,28 @@
 			)
 		)
 	)
+	(global_label "PWR"
+		(shape input)
+		(at 460.756 61.976 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6854f914-2021-4f5c-8699-c7a7449ad274")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 453.7794 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BIT2_FBFE"
 		(shape input)
 		(at 426.466 214.884 90)
@@ -15451,6 +15648,28 @@
 		(uuid "6deee006-da46-4680-8902-5349b590c1e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 285.1066 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK-"
+		(shape input)
+		(at 410.464 59.944 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e5883b9-1661-4e86-bd01-4e59040cd4c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 418.7711 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16538,28 +16757,6 @@
 			)
 		)
 	)
-	(global_label "SPK+"
-		(shape input)
-		(at 469.9 42.164 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af24c52c-39f4-4425-b3ea-e03415b04f01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 461.5929 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 164.592 50.292 0)
@@ -17101,28 +17298,6 @@
 		(uuid "cac84321-4dd4-4969-a0ad-f2aeab793f7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 325.5094 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPK-"
-		(shape input)
-		(at 469.9 44.704 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb4be27b-74fa-45ec-8c77-29f43144627e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 461.5929 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29893,6 +30068,89 @@
 			(project "esp32-s3-spectrum"
 				(path "/dafc20ec-c17f-44eb-87b8-51ae5cfca246"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA2Kicad:KLJ-01304T-08R07W")
+		(at 473.456 63.246 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dd604577-8d92-4f7e-a559-e8671fc5009a")
+		(property "Reference" "U3"
+			(at 473.456 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KLJ-01304T-08R07W"
+			(at 473.456 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:BUZ-SMD_4P-L13.0-W13.0-P11.4-BL"
+			(at 473.456 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.456 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 473.456 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C18186315"
+			(at 473.456 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f033a195-f59c-4d72-a92f-d75b5ce669de")
+		)
+		(pin "2"
+			(uuid "fb062ebf-9c4a-4c00-8a12-2dce6616c087")
+		)
+		(pin "3"
+			(uuid "f93e0439-e93f-483b-9a7e-8eabcd4b7655")
+		)
+		(pin "4"
+			(uuid "4d633cc5-859c-49c8-a2ce-39f9bf48dfbd")
+		)
+		(instances
+			(project ""
+				(path "/dafc20ec-c17f-44eb-87b8-51ae5cfca246"
+					(reference "U3")
 					(unit 1)
 				)
 			)
