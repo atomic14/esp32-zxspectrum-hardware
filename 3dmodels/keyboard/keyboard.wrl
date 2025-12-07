@@ -1,0 +1,34 @@
+#VRML V2.0 utf8
+
+Shape {
+    appearance Appearance {
+        material Material {
+            diffuseColor 1 1 1  # Default white (not used since colors are per face)
+        }
+    }
+    geometry IndexedFaceSet {
+        coord Coordinate {
+            point [
+                -0.1165 0.072 0,   # Top-left (-Width/2, Height/2, 0)
+                0.1165 0.072 0,    # Top-right (Width/2, Height/2, 0)
+                0.1165 -0.072 0,   # Bottom-right (Width/2, -Height/2, 0)
+                -0.1165 -0.072 0   # Bottom-left (-Width/2, -Height/2, 0)
+            ]
+        }
+        coordIndex [
+            0, 1, 2, -1,  # First triangle
+            0, 2, 3, -1   # Second triangle
+        ]
+        color Color {
+            color [
+                1 0 0,  # Red for first face
+                0 1 0,  # Green for second face
+            ]
+        }
+        colorPerVertex FALSE
+        colorIndex [
+            0, -1,  # Red for first triangle
+            1, -1   # Green for second triangle
+        ]
+    }
+}
